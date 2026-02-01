@@ -2,9 +2,9 @@
   ImportedAssetIds:
     .hidden/rock: !<reference> de51591d-a6ad-4c30-923a-81aa599bd828
     .hidden/white: !<reference> 84e7ed54-8c4e-4e62-8102-302bc088d83d
-    1fd5c332e8e2f790: !<reference> 352c7c67-d00a-4bbf-9d65-375767c43b14
-    78cc3658fd5bb1f8: !<reference> 1ae7b7ea-dda5-4406-b45d-c7f5c345fef0
-    7a0dd5cd69df73fa: !<reference> ab9e4358-a906-4282-b7be-5c9d3574cb66
+    351e6650c328b112: !<reference> 014b356c-38cc-475b-9f75-81121c3946c7
+    42913becc4e69913: !<reference> 49aa4a58-0279-41e2-b940-f9d4625330b1
+    66780cf3a4dcb2b8: !<reference> b634c17d-e86b-4bd6-884f-b8968e070473
     Materials/rock: !<reference> 78ddde0e-d3a1-4ef3-8ba3-7ddc6de048b9
     Materials/rock|rock|GraphPassInfo: !<reference> 7b4a0f15-9123-48e0-991e-57eedc510b51
     Materials/wood: !<reference> 38f09667-3f6c-4789-a104-7536307acfbd
@@ -12,9 +12,9 @@
     Meshes/box_1: !<reference> ec9903c7-f5c6-44c9-a0f9-2c8225135d0a
     Meshes/box_2: !<reference> 35460590-f6c0-4820-a48a-01182f18444e
     Scene: !<reference> a45769b4-5588-41ab-b831-0feaeffc724b
-    c9994fd9d752d8ee: !<reference> 63bd125c-862a-46e9-b198-cc5bb39d1755
-    cd6de20dfec2f06d: !<reference> 70846d54-943f-4af2-bd94-d9f6c5bc11f9
-    edca45b33228f3bb: !<reference> 433764db-517a-4258-b435-fea659fd4b56
+    c21edd564aca1731: !<reference> 1be52ef5-d494-4ca5-a3e8-87413b9142a1
+    c9808aff7bc3163d: !<reference> abc80d6f-ec15-46fc-877b-56d14e74b26e
+    e38ee90a65eddc72: !<reference> 71969ab9-5343-463a-8b12-f48cc3e6a12c
   ImporterName: ObjImporter
   PrimaryAsset: !<reference> a45769b4-5588-41ab-b831-0feaeffc724b
   PackageType: LegacyPackage
@@ -45,58 +45,7 @@
       mesh: None Compression
     Overrides:
       {}
-- !<SceneObject/1ae7b7ea-dda5-4406-4ba2-380a3cba010f>
-  PrefabRemaps:
-    []
-  Name: box
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    - !<own> 433764db-517a-4258-4bca-0159a602b4a9
-    - !<own> 352c7c67-d00a-4bbf-629a-c8a8983bc4eb
-  Components:
-    []
-- !<ObjectPrefabAssetData/1c1a91fc-25c3-47aa-b8db-5982552aa8d7>
-  Prototype: !<ObjectOwner/93eac912-cf00-41e3-8203-b51b650b4bb9>
-    PackagePath: ""
-    objects:
-      - !<own> ab9e4358-a906-4282-4841-a362ca8b3499
-- !<SceneObject/352c7c67-d00a-4bbf-629a-c8a8983bc4eb>
-  PrefabRemaps:
-    []
-  Name: box_2
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 63bd125c-862a-46e9-4e67-33a44c62e8aa
-- !<SceneObject/433764db-517a-4258-4bca-0159a602b4a9>
-  PrefabRemaps:
-    []
-  Name: box_1
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 70846d54-943f-4af2-426b-26093a43ee06
-- !<RenderMeshVisual/63bd125c-862a-46e9-4e67-33a44c62e8aa>
+- !<RenderMeshVisual/014b356c-38cc-475b-608a-7eede3c6b938>
   PrefabRemaps:
     []
   Name: component_1
@@ -116,7 +65,42 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<RenderMeshVisual/70846d54-943f-4af2-426b-26093a43ee06>
+- !<SceneObject/1be52ef5-d494-4ca5-5c17-78bec46ebd5e>
+  PrefabRemaps:
+    []
+  Name: box_1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 71969ab9-5343-463a-74ed-0b733c195ed3
+- !<ObjectPrefabAssetData/1c1a91fc-25c3-47aa-b8db-5982552aa8d7>
+  Prototype: !<ObjectOwner/93eac912-cf00-41e3-8203-b51b650b4bb9>
+    PackagePath: ""
+    objects:
+      - !<own> b634c17d-e86b-4bd6-77b0-476971f8fb8c
+- !<SceneObject/49aa4a58-0279-41e2-46bf-062b9daccf4e>
+  PrefabRemaps:
+    []
+  Name: box_2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 014b356c-38cc-475b-608a-7eede3c6b938
+- !<RenderMeshVisual/71969ab9-5343-463a-74ed-0b733c195ed3>
   PrefabRemaps:
     []
   Name: component_0
@@ -136,7 +120,7 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/ab9e4358-a906-4282-4841-a362ca8b3499>
+- !<SceneObject/abc80d6f-ec15-46fc-7884-a92eb18b4d91>
   PrefabRemaps:
     []
   Name: box
@@ -148,6 +132,22 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 1ae7b7ea-dda5-4406-4ba2-380a3cba010f
+    - !<own> 1be52ef5-d494-4ca5-5c17-78bec46ebd5e
+    - !<own> 49aa4a58-0279-41e2-46bf-062b9daccf4e
+  Components:
+    []
+- !<SceneObject/b634c17d-e86b-4bd6-77b0-476971f8fb8c>
+  PrefabRemaps:
+    []
+  Name: box
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> abc80d6f-ec15-46fc-7884-a92eb18b4d91
   Components:
     []

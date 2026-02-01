@@ -17,11 +17,17 @@
 // @input float laneWidth = 1.5
 // @input float moveSpeed = 10.0
 
+// @ui {"widget":"separator"}
+// @ui {"label":"Scoring"}
+// @input Component.Text scoreText
+// @input float increaseRate = 0.5
+
 // State variables
 var currentLane = 0;
 var lastNoseX = 0;
 var canInput = true; 
 var isGameOver = false; // Flag to freeze the game
+var score = 0; // Score variable moved here
 
 function onStart() {
     if (!script.animPlayer) {
@@ -61,15 +67,24 @@ function onStart() {
 }
 
 function onUpdate(eventData) {
-    // --- STOP INPUT BLOCK ---
-    // This line prevents the script from reading head position or moving
+    // --- STOP GAME BLOCK ---
+    // If Game Over is true, we RETURN immediately. 
+    // This stops physics AND stops the score from increasing below.
     if (isGameOver) 
     {
        script.animPlayer.setClipEnabled(script.runAnimName,false);
-        return;
+       return;
     }
     // ------------------------
     
+    // --- SCORE LOGIC ---
+    // This is now inside the safety check, so it stops when isGameOver = true
+    if (script.scoreText) {
+        score += script.increaseRate;
+        script.scoreText.text = Math.floor(score).toString();
+    }
+    // -------------------
+
     if (!script.headObj || !script.character) return;
     
     var deltaTime = eventData.getDeltaTime();

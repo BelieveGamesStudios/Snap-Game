@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 136
+    size: 142
     values:
       - Animation Mixer Layer.animationMixerLayer
       - Base.png
@@ -79,6 +79,7 @@ CollapsedEntities:
       - Scripts/CollisionDetection.js
       - Scripts/LevelGenerator.js
       - Scripts/RoadRandomizer.js
+      - Scripts/ScoreManager.js
       - Snap/Character.fbx
       - Snap/Character.fbx/.hidden
       - Snap/Character.fbx/.hidden/chefs_hat_headBrow_MAT
@@ -131,8 +132,13 @@ CollapsedEntities:
       - Snap/Running.fbx
       - Snap/Running.fbx/Animations/Layer0
       - Snap/Running.fbx/Running
-      - UI
       - UI/ImageMaterial.mat
+      - UI/Poppins-ExtraBold.ttf
+      - UI/Poppins-ExtraBoldItalic.ttf
+      - UI/Poppins-ExtraLight.ttf
+      - UI/Poppins-SemiBoldItalic.ttf
+      - UI/Poppins-Thin.ttf
+      - UI/Poppins-ThinItalic.ttf
       - UI/watercolors-413270_1920.jpg
       - UI/winter-9929460_1280.png
       - background-8422123_1920.png

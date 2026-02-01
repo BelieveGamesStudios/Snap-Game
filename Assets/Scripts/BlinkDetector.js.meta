@@ -30,6 +30,7 @@
     character: false
     deathAnimName: false
     headObj: false
+    increaseRate: false
     inputDelay: false
     laneWidth: false
     leftAnimName: false
@@ -37,6 +38,7 @@
     moveSpeed: false
     rightAnimName: false
     runAnimName: false
+    scoreText: false
     sensitivity: false
   ScriptTypesHidden:
     {}
@@ -59,6 +61,8 @@
       inputDelay: 0.600000
       laneWidth: 1.500000
       moveSpeed: !<float> 10.000000
+      scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      increaseRate: 0.500000
   ScriptTypes:
     -
       {}

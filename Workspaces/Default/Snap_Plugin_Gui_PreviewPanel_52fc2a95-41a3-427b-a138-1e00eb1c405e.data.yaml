@@ -1,22 +1,22 @@
 data:
   cameraToMultimedia:
-    - Front: PreviewResources.bundle/Video/Idle/Facial Expressions.mp4
+    - Front: PreviewResources.bundle/Video/Idle/Idle.mp4
     - Back: PreviewResources.bundle/Video/World/Beach.mp4
   cameraType: Perspective
   deviceName: No Simulation
   devicePose:
     eulerRotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     translation: {x: 0.000000, y: 0.000000, z: 0.000000}
-  deviceTypeOverride: Unknown
+  deviceTypeOverride: Mobile
   fullscreenSpectaclesSimulation: true
   inputSourceData:
     type: Multimedia
     input:
-      source: PreviewResources.bundle/Video/Idle/Facial Expressions.mp4
+      source: PreviewResources.bundle/Video/Idle/Idle.mp4
       upscale: 1280
     cameraView: Front
-  interactiveAspect: 1.000000
-  interactiveFov: 66.519997
+  interactiveAspect: 0.461538
+  interactiveFov: 45.709999
   internetAvailableOverride: true
   isMuted: false
   locale: en
