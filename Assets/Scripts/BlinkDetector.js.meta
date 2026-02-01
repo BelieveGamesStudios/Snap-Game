@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/7b3cd921-8336-4d91-9c6f-ca04e821efb7>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 712648c1-f3bb-4e18-996c-4bee086b6bd9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 712648c1-f3bb-4e18-996c-4bee086b6bd9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> f7e09c20-66d1-4e69-84cb-35da5badc9c5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f7e09c20-66d1-4e69-84cb-35da5badc9c5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c4496fe4-24ea-4290-833c-95077953eaf9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animPlayer: false
+    character: false
+    deathAnimName: false
+    headObj: false
+    inputDelay: false
+    laneWidth: false
+    leftAnimName: false
+    levelGenerator: false
+    moveSpeed: false
+    rightAnimName: false
+    runAnimName: false
+    sensitivity: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - headObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      character: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      animPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      levelGenerator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      runAnimName: Run
+      leftAnimName: left
+      rightAnimName: right
+      deathAnimName: Death
+      sensitivity: 0.300000
+      inputDelay: 0.600000
+      laneWidth: 1.500000
+      moveSpeed: !<float> 10.000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/679f4c07-b1ff-4950-9ceb-9f72b6f51300>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 58895af1-62f2-4dd8-a63e-571f16007fbf
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 58895af1-62f2-4dd8-a63e-571f16007fbf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 349008fe-b4d4-4eeb-9928-c680a3d39c77
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/349008fe-b4d4-4eeb-9928-c680a3d39c77>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 869aa0f7-d3e5-4867-951e-757d3313ac14
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animPlayer: false
+    deathAnimName: false
+    gameController: false
+    levelGenerator: false
+    obstacleTag: false
+    playerBody: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - playerBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      animPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      gameController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      levelGenerator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      deathAnimName: Death
+      obstacleTag: Obstacle
+  ScriptTypes:
+    -
+      {}

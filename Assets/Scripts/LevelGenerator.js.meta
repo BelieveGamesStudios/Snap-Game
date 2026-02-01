@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/9623b1ae-28e4-41ec-904f-70eb761efcad>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> bf35a08d-9c72-4bf2-89ba-265dc54ccc8f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> bf35a08d-9c72-4bf2-89ba-265dc54ccc8f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 564d966a-7a70-45a7-b2b0-29b8cf26a32c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/564d966a-7a70-45a7-b2b0-29b8cf26a32c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e8594fc2-c3bb-483a-9ea9-0d5003ba3179
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    chunkLength: false
+    destroyZ: false
+    forwardSpeed: false
+    groundPrefab: false
+    spawnBuffer: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - groundPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      forwardSpeed: !<float> 8.000000
+      spawnBuffer: !<float> 40.000000
+      chunkLength: !<float> 20.000000
+      destroyZ: !<float> 10.000000
+  ScriptTypes:
+    -
+      {}

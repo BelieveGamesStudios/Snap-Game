@@ -1,0 +1,142 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 136
+    values:
+      - Animation Mixer Layer.animationMixerLayer
+      - Base.png
+      - Bitmoji 3D.lsc
+      - Camera Controller.lsc
+      - Depth Render Target.depthStencilRenderTarget
+      - Echopark.hdr
+      - Environment/box.obj
+      - Environment/endlessrunnerset/source
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/.hidden
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/.hidden/Coin
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/.hidden/white
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Animations
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Animations/Obstacle
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Animations/Unity-Run
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Animations/Unity-RunSide_Left
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Animations/Unity-RunSide_Right
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Animations/Unity-Walk
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Animations/Unity-jump
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/EndlessRunnerSet
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Materials/Coin
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Materials/Cube
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Materials/Jimucha
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Materials/Material.007
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Materials/Spears
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/BunnyBuns
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Cube.001
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/JANGAA.001
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/JANGAA1.001
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Spears
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Sphere.002
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Sphere.003
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Sphere1.002
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Sphere1.003
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Tile
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/jimucha
+      - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/jimucha1
+      - Environment/endlessrunnerset/textures
+      - Environment/endlessrunnerset/textures/Coin_Base_Color.png
+      - Environment/endlessrunnerset/textures/Coins.mat
+      - Environment/endlessrunnerset/textures/Cube.mat
+      - Environment/endlessrunnerset/textures/Cube_Base_Color.png
+      - Environment/endlessrunnerset/textures/Cube_Metallic.png
+      - Environment/endlessrunnerset/textures/JIMUCHARoughness.png
+      - Environment/endlessrunnerset/textures/Jimucha_Base_Color.png
+      - Environment/endlessrunnerset/textures/Jimucha_Bump.png
+      - Environment/endlessrunnerset/textures/Jimucha_Metallic.png
+      - Environment/endlessrunnerset/textures/MaterialParams.png
+      - Environment/endlessrunnerset/textures/Normal.png
+      - Environment/endlessrunnerset/textures/Spear.mat
+      - Environment/endlessrunnerset/textures/Spears_Base_Color.png
+      - Environment/endlessrunnerset/textures/Spears_Metallic.png
+      - Environment/endlessrunnerset/textures/The Great wall.mat
+      - Environment/endlessrunnerset/textures/TheGreatWall.png
+      - Environment/endlessrunnerset/textures/Wall.mat
+      - Environment/endlessrunnerset/textures/pbr.ss_graph
+      - Environment/endlessrunnerset/textures/unlit.ss_graph
+      - Face Mesh.facemesh
+      - Face Mesh.mat
+      - FaceMeshTexture.jpg
+      - Image 2.mat
+      - Image 3.mat
+      - Image.mat
+      - Image.png
+      - PBR 2.mat
+      - Prefabs
+      - Prefabs/Cube.001.prefab
+      - Prefabs/Obstacle Box.prefab
+      - Prefabs/Spears.prefab
+      - Prefabs/Tile Backup.prefab
+      - Prefabs/Tile.prefab
+      - Scripts/BlinkDetector.js
+      - Scripts/CollisionDetection.js
+      - Scripts/LevelGenerator.js
+      - Scripts/RoadRandomizer.js
+      - Snap/Character.fbx
+      - Snap/Character.fbx/.hidden
+      - Snap/Character.fbx/.hidden/chefs_hat_headBrow_MAT
+      - Snap/Character.fbx/.hidden/white
+      - Snap/Character.fbx/Animations
+      - Snap/Character.fbx/Animations/Layer0
+      - Snap/Character.fbx/Character
+      - Snap/Character.fbx/Materials
+      - Snap/Character.fbx/Materials/chefs_hat_headBrow_MAT
+      - Snap/Character.fbx/Materials/eye_MAT
+      - Snap/Character.fbx/Materials/eyelash_MAT1
+      - Snap/Character.fbx/Materials/heaviest_body_MAT
+      - Snap/Character.fbx/Materials/heaviest_hair_MAT
+      - Snap/Character.fbx/Materials/heaviest_head_MAT
+      - Snap/Character.fbx/Materials/heaviest_outfit_bottom_MAT
+      - Snap/Character.fbx/Materials/heaviest_outfit_footwear_MAT
+      - Snap/Character.fbx/Materials/heaviest_outfit_outerwear_MAT
+      - Snap/Character.fbx/Materials/heaviest_outfit_top_MAT
+      - Snap/Character.fbx/Meshes
+      - Snap/Character.fbx/Meshes/C_brow_GEO
+      - Snap/Character.fbx/Meshes/C_hair_GEO
+      - Snap/Character.fbx/Meshes/C_headMouth_GEO
+      - Snap/Character.fbx/Meshes/C_head_GEO
+      - Snap/Character.fbx/Meshes/L_eye_GEO
+      - Snap/Character.fbx/Meshes/R_eye_GEO
+      - Snap/Character.fbx/Meshes/body_GEO
+      - Snap/Character.fbx/Meshes/outfit_bottom_GEO
+      - Snap/Character.fbx/Meshes/outfit_footwear_GEO
+      - Snap/Character.fbx/Meshes/outfit_outerwear_GEO
+      - Snap/Character.fbx/Meshes/outfit_top_GEO
+      - Snap/Character.fbx/Meshes/universal_head_eyelash_GEO
+      - Snap/Character.fbx/Textures
+      - Snap/Character.fbx/Textures/eye_MAT_color
+      - Snap/Character.fbx/Textures/eyelash_color
+      - Snap/Character.fbx/Textures/heaviest_body
+      - Snap/Character.fbx/Textures/heaviest_bottom
+      - Snap/Character.fbx/Textures/heaviest_brows
+      - Snap/Character.fbx/Textures/heaviest_face
+      - Snap/Character.fbx/Textures/heaviest_hair
+      - Snap/Character.fbx/Textures/heaviest_jacket
+      - Snap/Character.fbx/Textures/heaviest_shirt
+      - Snap/Character.fbx/Textures/heaviest_shoes
+      - Snap/Falling Back Death.fbx
+      - Snap/Falling Back Death.fbx/Animations
+      - Snap/Falling Back Death.fbx/Animations/Layer0
+      - Snap/Falling Back Death.fbx/Falling Back Death
+      - Snap/Jump.fbx
+      - Snap/Jump.fbx/Animations/Layer0
+      - Snap/Jump.fbx/Jump
+      - Snap/Running.fbx
+      - Snap/Running.fbx/Animations/Layer0
+      - Snap/Running.fbx/Running
+      - UI
+      - UI/ImageMaterial.mat
+      - UI/watercolors-413270_1920.jpg
+      - UI/winter-9929460_1280.png
+      - background-8422123_1920.png
+      - face_mesh.ss_graph
+      - flat.ss_graph
+      - image_unlit.ss_graph
+  options: 4

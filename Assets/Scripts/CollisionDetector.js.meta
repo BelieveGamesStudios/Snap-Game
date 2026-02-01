@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/f4c09795-5854-4e25-ae9a-d811b4046ab0>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5d1a5ae7-a274-452e-9673-34b20cf4fc44
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5d1a5ae7-a274-452e-9673-34b20cf4fc44
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b8fcb494-51e9-4799-86c1-45497ed1b21d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b8fcb494-51e9-4799-86c1-45497ed1b21d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9115e754-ec35-4c61-9b65-757463d51d47
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animPlayer: false
+    deathAnimName: false
+    obstacleTag: false
+    playerBody: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - playerBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      animPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      deathAnimName: Death
+      obstacleTag: Obstacle
+  ScriptTypes:
+    -
+      {}
