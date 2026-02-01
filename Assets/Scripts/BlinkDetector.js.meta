@@ -29,7 +29,10 @@
     animPlayer: false
     character: false
     deathAnimName: false
+    finalScoreText: false
+    gameOverUI: false
     headObj: false
+    highScoreText: false
     increaseRate: false
     inputDelay: false
     laneWidth: false
@@ -63,6 +66,9 @@
       moveSpeed: !<float> 10.000000
       scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       increaseRate: 0.500000
+      gameOverUI: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      finalScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      highScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

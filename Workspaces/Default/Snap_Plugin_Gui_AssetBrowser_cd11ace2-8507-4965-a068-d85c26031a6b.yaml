@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 142
+    size: 146
     values:
       - Animation Mixer Layer.animationMixerLayer
       - Base.png
@@ -66,10 +66,12 @@ CollapsedEntities:
       - FaceMeshTexture.jpg
       - Image 2.mat
       - Image 3.mat
+      - Image 5.mat
+      - Image 6.mat
+      - Image 7.mat
       - Image.mat
       - Image.png
       - PBR 2.mat
-      - Prefabs
       - Prefabs/Cube.001.prefab
       - Prefabs/Obstacle Box.prefab
       - Prefabs/Spears.prefab
@@ -79,7 +81,7 @@ CollapsedEntities:
       - Scripts/CollisionDetection.js
       - Scripts/LevelGenerator.js
       - Scripts/RoadRandomizer.js
-      - Scripts/ScoreManager.js
+      - Scripts/TouchToRestart.js
       - Snap/Character.fbx
       - Snap/Character.fbx/.hidden
       - Snap/Character.fbx/.hidden/chefs_hat_headBrow_MAT
@@ -132,6 +134,8 @@ CollapsedEntities:
       - Snap/Running.fbx
       - Snap/Running.fbx/Animations/Layer0
       - Snap/Running.fbx/Running
+      - UI/ImageMaterial 3.mat
+      - UI/ImageMaterial 4.mat
       - UI/ImageMaterial.mat
       - UI/Poppins-ExtraBold.ttf
       - UI/Poppins-ExtraBoldItalic.ttf

@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/0131489a-69d1-4a4d-a6e3-53be35bb8270>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 75ad3401-c58e-45c8-9c4f-44d1fbe55101
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 75ad3401-c58e-45c8-9c4f-44d1fbe55101
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bd5d3b03-1378-4388-80d0-adb323f48275
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bd5d3b03-1378-4388-80d0-adb323f48275>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a9900ab1-253f-4747-aac7-7a319444c94e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    blinkDetector: false
+    collisionDetector: false
+    gameOverUI: false
+    levelGenerator: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - blinkDetector: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      levelGenerator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      collisionDetector: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameOverUI: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

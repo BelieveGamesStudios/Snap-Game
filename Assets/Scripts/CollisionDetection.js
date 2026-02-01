@@ -7,23 +7,24 @@
 // @input string deathAnimName = "Death"
 // @input string obstacleTag = "Collider"
 
+var isDead = false;
+var isInvincible = false; // New flag
+
 function onStart() {
     if (!script.playerBody) {
-        print("ERROR: Please assign the Player Physics Body.");
+        print("ERROR: Player Body needed");
         return;
     }
-
-    // Bind the collision event
     script.playerBody.onOverlapEnter.add(onCollision);
 }
 
 function onCollision(eventData) {
+    // 1. Ignore collision if invincible OR dead
+    if (isInvincible || isDead) return; //
+
     var hitCollider = eventData.overlap.collider;
-    
     if (hitCollider) {
         var hitObject = hitCollider.getSceneObject();
-
-        // Check if the object we hit is tagged as an obstacle
         if (hitObject && hitObject.name.indexOf(script.obstacleTag) !== -1) {
             print("💥 CRASH! Hit: " + hitObject.name);
             handleDeath();
@@ -31,37 +32,41 @@ function onCollision(eventData) {
     }
 }
 
-var isDead = false;
-
 function handleDeath() {
     if (isDead) return;
     isDead = true;
-
     print("💀 GAME OVER");
 
-    // 1. Play Death Animation
+    // Play Death Animation
     if (script.animPlayer) {
-        if (script.animPlayer.getClip(script.deathAnimName)) {
-            script.animPlayer.playClip(script.deathAnimName);
-        } else {
-            print("Warning: Death animation clip not found.");
-        }
+        script.animPlayer.playClip(script.deathAnimName);
     }
 
-    // 2. Disable Inputs (Stop Swiping)
+    // Stop the game
     if (script.gameController && script.gameController.api.triggerDeath) {
         script.gameController.api.triggerDeath();
-    } else {
-        print("Warning: Face Controller not assigned.");
     }
-
-    // 3. Stop the Road (Set Speed to 0)
+    
+    // Stop the Road
     if (script.levelGenerator && script.levelGenerator.api.setSpeedZero) {
         script.levelGenerator.api.setSpeedZero();
-    } else {
-        print("Warning: Level Generator not assigned.");
     }
 }
+
+// --- PUBLIC RESET FUNCTION ---
+script.api.resetCollision = function() {
+    isDead = false;
+    isInvincible = true; // Enable god mode
+    print("🛡️ Invincibility Active");
+    
+    // Turn off god mode after 1.5 seconds
+    var delayEvent = script.createEvent("DelayedCallbackEvent");
+    delayEvent.bind(function() {
+        isInvincible = false;
+        print("🛡️ Invincibility Ended");
+    });
+    delayEvent.reset(1.5);
+};
 
 var startEvent = script.createEvent("OnStartEvent");
 startEvent.bind(onStart);

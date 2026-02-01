@@ -6,20 +6,24 @@
 
 var chunks = [];
 var isStopped = false;
+var initialSpeed = 10.0; // Variable to store your real speed
 
 function onStart() {
-    // --- PUBLIC API METHOD ---
-    // This is the function you can call from external scripts
+    // Save the speed you set in Inspector
+    initialSpeed = script.forwardSpeed; 
+
     script.api.setSpeedZero = function() {
         script.forwardSpeed = 0;
         isStopped = true;
         print("⛔ Road Speed set to 0");
     };
-    // -------------------------
-
+    
+    // ... (rest of onStart) ...
     if (!script.groundPrefab) return;
+    spawnInitialRoad();
+}
 
-    // Initial Spawn Loop
+function spawnInitialRoad() {
     var currentZ = 0.0; 
     while (currentZ > -script.spawnBuffer * 1.5) {
         spawnChunk(currentZ);
@@ -75,3 +79,20 @@ function spawnChunk(zPos) {
 
 script.createEvent("UpdateEvent").bind(onUpdate);
 script.createEvent("OnStartEvent").bind(onStart);
+
+script.api.resetLevel = function() {
+    // 1. Clear existing chunks
+    for (var i = 0; i < chunks.length; i++) {
+        if (chunks[i]) chunks[i].destroy();
+    }
+    chunks = [];
+    
+    // 2. Reset speed to the SAVED value
+    script.forwardSpeed = initialSpeed; 
+    isStopped = false;
+    
+    // 3. Respawn Road
+    spawnInitialRoad();
+    
+    print("✅ Road Reset with Speed: " + initialSpeed);
+};
