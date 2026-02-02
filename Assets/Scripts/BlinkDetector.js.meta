@@ -33,6 +33,7 @@
     gameOverUI: false
     headObj: false
     highScoreText: false
+    idleAnimName: false
     increaseRate: false
     inputDelay: false
     laneWidth: false
@@ -43,6 +44,7 @@
     runAnimName: false
     scoreText: false
     sensitivity: false
+    tutorialUI: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -60,6 +62,7 @@
       leftAnimName: left
       rightAnimName: right
       deathAnimName: Death
+      idleAnimName: Idle
       sensitivity: 0.300000
       inputDelay: 0.600000
       laneWidth: 1.500000
@@ -67,6 +70,7 @@
       scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       increaseRate: 0.500000
       gameOverUI: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tutorialUI: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       finalScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       highScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:

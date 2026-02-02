@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 146
+    size: 160
     values:
       - Animation Mixer Layer.animationMixerLayer
       - Base.png
@@ -10,7 +10,6 @@ CollapsedEntities:
       - Depth Render Target.depthStencilRenderTarget
       - Echopark.hdr
       - Environment/box.obj
-      - Environment/endlessrunnerset/source
       - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx
       - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/.hidden
       - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/.hidden/Coin
@@ -41,6 +40,14 @@ CollapsedEntities:
       - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/Tile
       - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/jimucha
       - Environment/endlessrunnerset/source/EndlessRunnerSet.fbx/Meshes/jimucha1
+      - Environment/endlessrunnerset/source/Idle.fbx
+      - Environment/endlessrunnerset/source/Idle.fbx/Animations
+      - Environment/endlessrunnerset/source/Idle.fbx/Animations/Layer0
+      - Environment/endlessrunnerset/source/Idle.fbx/Idle
+      - Environment/endlessrunnerset/source/Slide Hip Hop Dance.fbx
+      - Environment/endlessrunnerset/source/Slide Hip Hop Dance.fbx/Animations
+      - Environment/endlessrunnerset/source/Slide Hip Hop Dance.fbx/Animations/Layer0
+      - Environment/endlessrunnerset/source/Slide Hip Hop Dance.fbx/Slide Hip Hop Dance
       - Environment/endlessrunnerset/textures
       - Environment/endlessrunnerset/textures/Coin_Base_Color.png
       - Environment/endlessrunnerset/textures/Coins.mat
@@ -77,11 +84,13 @@ CollapsedEntities:
       - Prefabs/Spears.prefab
       - Prefabs/Tile Backup.prefab
       - Prefabs/Tile.prefab
+      - Scripts
       - Scripts/BlinkDetector.js
       - Scripts/CollisionDetection.js
       - Scripts/LevelGenerator.js
       - Scripts/RoadRandomizer.js
       - Scripts/TouchToRestart.js
+      - Snap
       - Snap/Character.fbx
       - Snap/Character.fbx/.hidden
       - Snap/Character.fbx/.hidden/chefs_hat_headBrow_MAT
@@ -134,17 +143,22 @@ CollapsedEntities:
       - Snap/Running.fbx
       - Snap/Running.fbx/Animations/Layer0
       - Snap/Running.fbx/Running
+      - UI
+      - UI/Bold.ttf
       - UI/ImageMaterial 3.mat
       - UI/ImageMaterial 4.mat
       - UI/ImageMaterial.mat
+      - UI/Modular.ttf
       - UI/Poppins-ExtraBold.ttf
       - UI/Poppins-ExtraBoldItalic.ttf
       - UI/Poppins-ExtraLight.ttf
       - UI/Poppins-SemiBoldItalic.ttf
       - UI/Poppins-Thin.ttf
       - UI/Poppins-ThinItalic.ttf
+      - UI/Score - 2 (1).png
       - UI/watercolors-413270_1920.jpg
       - UI/winter-9929460_1280.png
+      - audio/funk-funky-beat-music-338194.mp3
       - background-8422123_1920.png
       - face_mesh.ss_graph
       - flat.ss_graph

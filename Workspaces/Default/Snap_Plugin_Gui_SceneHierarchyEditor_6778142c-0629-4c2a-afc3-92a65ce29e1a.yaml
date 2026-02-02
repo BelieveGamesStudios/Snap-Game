@@ -1,7 +1,9 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 0
+    size: 1
+    values:
+      - 8f73cc2a-ce48-40b2-ba60-96ea3c5fa2f4
   options: 4
 PinnedEntities:
   type: uuids

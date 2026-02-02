@@ -7,7 +7,6 @@ data:
     - Deprecated
   severities:
     - Error
-    - Warning
     - Info
     - Debug
   fontSizeIncrease: Small
